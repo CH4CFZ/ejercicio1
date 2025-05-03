@@ -49,11 +49,11 @@ int main() {
         for (int i = 0; i < n; i++) {   /*Estos ciclos for para recorrer la matriz los obtuve de las presentaciones*/
                 for (int j = 0; j < n; j++) {
 	
-	                if (i==j) {
+	                if (i==j) {    /*Esta es la condicion que cumplen las diagonales principales de cualquier matriz nxn*/
 				
-		                sumauno += matrizA[i][j];
+		                sumauno += matrizA[i][j]; /*Esta forma de sumar se saco de las presentaciones*/
 	                }
-	                if ( i + j == n - 1) {
+	                if ( i + j == n - 1) { /*A la hora de asignar los valores de la matriz por medio de algebra vi que esto se cumplia*/
 	                 	sumados += matrizA[i][j];
 	                }
 
