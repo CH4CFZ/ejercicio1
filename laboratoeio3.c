@@ -58,7 +58,7 @@ int main() {
 	                }
 
 		}
-	}
+	}                       \\ hola 90
 
 	printf("La suma de las diagonales de la matriz es: %d\n", sumauno + sumados );
 	
